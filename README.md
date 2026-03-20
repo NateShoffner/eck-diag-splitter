@@ -20,8 +20,9 @@ python patch.py <path-to-input-zip> [--patch] [--minify]
 
 # Disclaimer
 
-This tool is provided as-is without any warranties. Use at your own risk. Always review the output files before sharing or using them for analysis.
+This tool is provided as-is without any warranties. Use at your own risk.
 
 ## Known Issues
 
 - Nodes within the analysis tool may not populate accordingly due to missing or altered metadata in the split files.
+- Some JSON files may still cause analysis failures if they are too large, even after minification.
