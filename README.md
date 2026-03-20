@@ -10,7 +10,7 @@ Split ECK diagnostic dumps into separate zip files per Elasticsearch instance an
 ## Quick Start
 
 ```bash
-python patch.py <path-to-input-zip> [--patch] [--minify]
+python split_eck_dump.py <path-to-input-zip> [--patch] [--minify]
 ```
 
 ## Flags
